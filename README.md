@@ -1,5 +1,7 @@
 Project này fine-tune model ViT5 cho nhiệm vụ chuyên sửa lỗi của PaddleOCR khi làm việc với văn bản pháp luật Việt Nam
-+ stage 1: vô 2 trang web lớn chứa văn bản pháp luật (vbpl.vn với thuvienphapluat.vn) để crawl dữ liệu về, làm sạch, chuẩn hoá và ghép thành 1 câu hoàn chỉnh làm ra 
++ stage 1: vô 2 trang web lớn chứa văn bản pháp luật (vbpl.vn với thuvienphapluat.vn) để crawl dữ liệu về, làm sạch, chuẩn hoá và ghép thành 1 câu hoàn chỉnh để làm corpus
++ stage 2: chia nhỏ các câu văn bản chuẩn và mô phỏng các lỗi của PaddleOCR khi làm việc với tiếng việt để làm bộ dataset train model ViT5
++ stage 3: fine-tune model ViT5
 ---
 
 Đây là video demo kết quả:
