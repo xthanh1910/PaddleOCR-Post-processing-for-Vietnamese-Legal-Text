@@ -4,7 +4,7 @@ This project focuses on fine-tuning the **ViT5** model to post-process and corre
 
 ---
 
-## Demo Video
+## Video Demo
 <div align="center">
   <a href="https://www.youtube.com/watch?v=rrxfTMUDpOk">
     <img src="https://img.youtube.com/vi/rrxfTMUDpOk/0.jpg" alt="Project Demo" style="width:100%;">
